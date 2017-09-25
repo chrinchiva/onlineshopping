@@ -29,13 +29,6 @@
                                 </constraints>
                                 <state key="normal" title="Sign up"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CKCC" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5k3-CR-tbM">
-                                <rect key="frame" x="176" y="208" width="46" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AK0-Qg-87h">
                                 <rect key="frame" x="37.5" y="369" width="300" height="30"/>
                                 <constraints>
@@ -43,13 +36,22 @@
                                 </constraints>
                                 <state key="normal" title="Login"/>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4jh-E8-qsT">
+                                <rect key="frame" x="87.5" y="46" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="9Y9-a5-k34"/>
+                                    <constraint firstAttribute="width" constant="200" id="er9-Ml-mlI"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="5PE-MH-OCs" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="298" id="36N-jR-LYY"/>
+                            <constraint firstItem="4jh-E8-qsT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="26" id="7es-2N-9bw"/>
                             <constraint firstItem="5PE-MH-OCs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="TmS-CR-akJ"/>
                             <constraint firstItem="AK0-Qg-87h" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gDI-Xs-bEs"/>
                             <constraint firstItem="AK0-Qg-87h" firstAttribute="top" secondItem="5PE-MH-OCs" secondAttribute="bottom" constant="21" id="jGK-wg-GKF"/>
+                            <constraint firstItem="4jh-E8-qsT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yc5-EG-LjB"/>
                             <constraint firstItem="5PE-MH-OCs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yfy-v2-PDm"/>
                         </constraints>
                     </view>
