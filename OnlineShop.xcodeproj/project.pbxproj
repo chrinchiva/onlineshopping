@@ -12,6 +12,10 @@
 		E28E62B21F7939570082FDF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28E62B01F7939570082FDF6 /* Main.storyboard */; };
 		E28E62B41F7939570082FDF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28E62B31F7939570082FDF6 /* Assets.xcassets */; };
 		E28E62B71F7939570082FDF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E28E62B51F7939570082FDF6 /* LaunchScreen.storyboard */; };
+		E2B6F3981F7B83730086B651 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B6F3971F7B83730086B651 /* HomeScreenViewController.swift */; };
+		E2B6F39A1F7B87210086B651 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B6F3991F7B87210086B651 /* 1.png */; };
+		E2B6F39C1F7B87290086B651 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B6F39B1F7B87290086B651 /* 2.png */; };
+		E2B6F3A21F7BB7EA0086B651 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E2B6F3A11F7BB7EA0086B651 /* 4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E28E62B31F7939570082FDF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E28E62B61F7939570082FDF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E28E62B81F7939570082FDF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B6F3971F7B83730086B651 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		E2B6F3991F7B87210086B651 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E2B6F39B1F7B87290086B651 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E2B6F3A11F7BB7EA0086B651 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		E28E62AB1F7939570082FDF6 /* OnlineShop */ = {
 			isa = PBXGroup;
 			children = (
+				E2B6F3A11F7BB7EA0086B651 /* 4.png */,
+				E2B6F39B1F7B87290086B651 /* 2.png */,
+				E2B6F3991F7B87210086B651 /* 1.png */,
 				E28E62AC1F7939570082FDF6 /* AppDelegate.swift */,
 				E28E62AE1F7939570082FDF6 /* ViewController.swift */,
 				E28E62B01F7939570082FDF6 /* Main.storyboard */,
 				E28E62B31F7939570082FDF6 /* Assets.xcassets */,
 				E28E62B51F7939570082FDF6 /* LaunchScreen.storyboard */,
 				E28E62B81F7939570082FDF6 /* Info.plist */,
+				E2B6F3971F7B83730086B651 /* HomeScreenViewController.swift */,
 			);
 			path = OnlineShop;
 			sourceTree = "<group>";
@@ -124,7 +136,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2B6F3A21F7BB7EA0086B651 /* 4.png in Resources */,
 				E28E62B71F7939570082FDF6 /* LaunchScreen.storyboard in Resources */,
+				E2B6F39A1F7B87210086B651 /* 1.png in Resources */,
+				E2B6F39C1F7B87290086B651 /* 2.png in Resources */,
 				E28E62B41F7939570082FDF6 /* Assets.xcassets in Resources */,
 				E28E62B21F7939570082FDF6 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +154,7 @@
 			files = (
 				E28E62AF1F7939570082FDF6 /* ViewController.swift in Sources */,
 				E28E62AD1F7939570082FDF6 /* AppDelegate.swift in Sources */,
+				E2B6F3981F7B83730086B651 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +320,7 @@
 				E28E62BD1F7939570082FDF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
